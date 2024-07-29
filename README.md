@@ -13,7 +13,6 @@
 - As a user, I want to open the camera within the app to detect items, so I can identify objects around me.
 - As a user, I want to connect my mobile app to a self-driving car, so I can control it remotely and perform tasks
 - As a user, I want the self-driving car to search for and detect items, so I can automate tasks like finding specific objects.
-- As a user, I want to open the camera within the app to detect items, so I can identify objects around me.
 
 
 <br><br>
