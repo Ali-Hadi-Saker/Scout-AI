@@ -27,3 +27,10 @@
 - The app uses the font ["Work Sans"](https://fonts.google.com/specimen/Work+Sans) as its main font, and the design of the app adheres to the material design guidelines.
 
 <br><br>
+### Mockups
+
+| Home screen                             | Signup Screen                           | Car Control Screen                          |
+| --------------------------------------- | ------------------------------------- | ------------------------------------- |
+| ![Splash](./readme/demo/landing.png) | ![Signup](./readme/demo/Signup.png) | ![car-control](./readme/demo/landing.png) |
+
+<br><br>
