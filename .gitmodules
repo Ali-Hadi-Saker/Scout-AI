@@ -4,3 +4,6 @@
 [submodule "scout-ai-react"]
 	path = scout-ai-react
 	url = https://github.com/Ali-Hadi-Saker/Scout-AI-React.git
+[submodule "scout-ai-back-end"]
+	path = scout-ai-back-end
+	url = https://github.com/Ali-Hadi-Saker/Scout-AI-Back-End.git
