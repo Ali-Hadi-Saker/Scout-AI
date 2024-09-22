@@ -41,3 +41,11 @@
 | ![fsdaf](./readme/database/db-diagram.png) |
 
 <br><br>
+<!-- Implementation -->
+<img src="./readme/title6.svg"/>
+
+### User Screens (Mobile)
+
+| Register Screen                              | Login Screen                         | Item Detection Screen                          |
+| ----------------------------------------- | --------------------------------------- | --------------------------------------- |
+| ![Register](./readme/screens/register.gif) | ![Login](./readme/screens/login.gif) | ![Item detection](./readme/screens/detection.gif) |
