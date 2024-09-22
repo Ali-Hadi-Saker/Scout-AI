@@ -7,3 +7,6 @@
 [submodule "scout-ai-back-end"]
 	path = scout-ai-back-end
 	url = https://github.com/Ali-Hadi-Saker/Scout-AI-Back-End.git
+[submodule "scout-ai-detecion-model"]
+	path = scout-ai-detecion-model
+	url = https://github.com/Ali-Hadi-Saker/Scout-AI-Object-Detection.git
