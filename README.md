@@ -46,14 +46,100 @@
 
 ### User Screens (Mobile)
 
-| Register Screen                              | Login Screen                         | Item Detection Screen                          |
+| Register Screen                              | Login Screen                         | Enter item name                          |
 | ----------------------------------------- | --------------------------------------- | --------------------------------------- |
-| ![Register](./readme/screens/register.gif) | ![Login](./readme/screens/login.gif) | ![Item detection](./readme/screens/detection.gif) |
-| Enter item name                              | Car Control Screen                         | Logs Screen                          |
-| ![Item name](./readme/screens/search-item.gif) | ![Car control](./readme/screens/car-control.gif) | ![Logs](./readme/screens/logs.gif) |
+| ![Register](./readme/screens/register.gif) | ![Login](./readme/screens/login.gif) | ![Item name](./readme/screens/search-item.gif) |
+| Car Control Screen                              |Settings Screen                         | User Infos Screen                          |
+| ![Car control](./readme/screens/car-control.gif) | ![Settings](./readme/screens/settings.gif) | ![User infos](./readme/screens/user-infos.gif) |
 
 ### Arduino Simulation
 
 | Car Control                              | Item ditection                         |
 | ----------------------------------------- | --------------------------------------- |
 | ![Car Control](./readme/screens/car-drive.gif) | ![Item detection](./readme/screens/detection.gif) |
+
+<!-- How to run -->
+<img src="./readme/title10.svg"/>
+
+> To set up Scout-AI locally, follow these steps:
+
+### Prerequisites
+
+-   ESP32-CAM Module (Hardware)
+-   4WD Car kit (Hardware)
+-   L298N motor driver module (Hardware)
+-   antenna (Hardware)
+-   NEO-7M GPS (Hardware)
+-   7-12 V DC Battery (Hardware)
+-   Breadboard (Hardware)
+-   Double sided tape (Hardware)
+-   Glue gun (Hardware)
+-   Jumper wires (Hardware)
+
+### Installation
+
+1. Clone the main repo with its submodels
+    ```sh
+    git clone --recurse-submodules https://github.com/Ali-Hadi-Saker/Scout-AI.git
+    ```
+2. Download MongoDB from https://www.mongodb.com/, then run the installer
+
+3. Go to Scout-AI-Back-End repo
+    ```sh
+    cd Scout-AI-Back-End
+    ```
+4. To install the needed dependencies in package.json
+    ```sh
+    npm install
+    ```
+5. Start the Server
+    ```sh
+    npm run dev
+    ```
+6. To run the the detection model 
+    ```sh
+    cd Scout-AI-Object-Detection
+    ```
+7. Install the needed libraries
+   ```sh
+    pip install -r requirements.txt
+    ```
+8. Run detection model
+   ```sh
+    python main.py
+    ```   
+9. Install [Flutter SDK](https://docs.flutter.dev/get-started/install?gclid=Cj0KCQiAveebBhD_ARIsAFaAvrEXbca0gKEuW9ROxwC86eiEtJUUO5tm-AIIzds41AXpzsjkbESCw2EaAsTwEALw_wcB&gclsrc=aw.ds)
+
+10. Go to Scout-AI-Flutter directory
+    ```sh
+    cd Scout-AI-Flutter
+    ```
+11. Install pub packages
+    ```sh
+    flutter pub get
+    ```
+12. Run Scout-AI-Flutter
+    ```sh
+    flutter run
+    ```
+
+### Hardware Setup 
+
+-   Uploading code
+
+1. Connect yor hardware as shown in the readme/arduino-schema directory
+
+2. Connect the arduino to the computer
+
+3. Install [Arduino IDE](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing) (You can use alternative aurduino IDE's)
+
+4. In Scout-AI-Car-Control, change the following variables to match your wifi credentials and setup
+    ```cpp
+    const char* ssid = "your_wifi_ssid";
+    const char* password = "your_wifi_password";
+    ```
+
+6. Upload arduino code into ESP32-Cam board
+
+
+Now, you are all set to control the car and detect items.
