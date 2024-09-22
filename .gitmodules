@@ -1,3 +1,6 @@
 [submodule "scout-ai-flutter"]
 	path = scout-ai-flutter
 	url = https://github.com/Ali-Hadi-Saker/Scout-AI-Flutter.git
+[submodule "scout-ai-react"]
+	path = scout-ai-react
+	url = https://github.com/Ali-Hadi-Saker/Scout-AI-React.git
