@@ -49,3 +49,11 @@
 | Register Screen                              | Login Screen                         | Item Detection Screen                          |
 | ----------------------------------------- | --------------------------------------- | --------------------------------------- |
 | ![Register](./readme/screens/register.gif) | ![Login](./readme/screens/login.gif) | ![Item detection](./readme/screens/detection.gif) |
+| Enter item name                              | Car Control Screen                         | Logs Screen                          |
+| ![Item name](./readme/screens/search-item.gif) | ![Car control](./readme/screens/car-control.gif) | ![Logs](./readme/screens/logs.gif) |
+
+### Arduino Simulation
+
+| Car Control                              | Item ditection                         |
+| ----------------------------------------- | --------------------------------------- |
+| ![Car Control](./readme/screens/car-drive.gif) | ![Item detection](./readme/screens/detection.gif) |
