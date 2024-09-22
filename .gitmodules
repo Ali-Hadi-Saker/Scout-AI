@@ -10,3 +10,6 @@
 [submodule "scout-ai-detecion-model"]
 	path = scout-ai-detecion-model
 	url = https://github.com/Ali-Hadi-Saker/Scout-AI-Object-Detection.git
+[submodule "scout-ai-car-control"]
+	path = scout-ai-car-control
+	url = https://github.com/Ali-Hadi-Saker/Scout-AI-Car-Control.git
