@@ -31,6 +31,6 @@
 
 | Home screen                             | Signup Screen                           | Car Control Screen                          |
 | --------------------------------------- | ------------------------------------- | ------------------------------------- |
-| ![Splash](./readme/demo/landing.png) | ![Signup](./readme/demo/Signup.png) | ![car-control](./readme/demo/landing.png) |
+| ![Splash](./readme/demo/landing.png) | ![Signup](./readme/demo/signup.png) | ![car-control](./readme/demo/car-control.png) |
 
 <br><br>
